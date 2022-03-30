@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Microchip EMC2301-1-ACZL-TR
+#
+DEF EMC2301-1-ACZL-TR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "EMC2301-1-ACZL-TR" 0 300 50 H V L CNN 
+F2 "Microchip-MO-8-TSSOP-3x3-0-D-*" 0 400 50 H I L CNN 
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/2301.pdf" 0 500 50 H I L CNN 
+F4 "+125°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-40°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "Integrated Circuits (ICs)" 0 1000 50 H I L CNN "device class L1"
+F9 "Power Management ICs" 0 1100 50 H I L CNN "device class L2"
+F10 "Motor Drivers" 0 1200 50 H I L CNN "device class L3"
+F11 "IC MOTOR DRIVER 3V-3.6V 8MSOP" 0 1300 50 H I L CNN "digikey description"
+F12 "EMC2301-1-ACZL-CT-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "1.1mm" 0 1500 50 H I L CNN "height"
+F14 "SOP65P300X95-8" 0 1600 50 H I L CNN "ipc land pattern name"
+F15 "Yes" 0 1700 50 H I L CNN "lead free"
+F16 "35312416a1abbea7" 0 1800 50 H I L CNN "library id"
+F17 "Microchip" 0 1900 50 H I L CNN "manufacturer"
+F18 "3.6V" 0 2000 50 H I L CNN "max supply voltage"
+F19 "3V" 0 2100 50 H I L CNN "min supply voltage"
+F20 "Board Mount Temperature Sensors Single RPB-Based PWM Fan Speed CNTRL" 0 2200 50 H I L CNN "mouser description"
+F21 "886-EMC2301-1-ACZLTR" 0 2300 50 H I L CNN "mouser part number"
+F22 "350uA" 0 2400 50 H I L CNN "nominal supply current"
+F23 "1" 0 2500 50 H I L CNN "number of outputs"
+F24 "MSOP8" 0 2600 50 H I L CNN "package"
+F25 "Yes" 0 2700 50 H I L CNN "rohs"
+F26 "0.05mm" 0 2800 50 H I L CNN "standoff height"
+F27 "9.5-26000Hz" 0 2900 50 H I L CNN "switching frequency"
+F28 "+125°C" 0 3000 50 H I L CNN "temperature range high"
+F29 "-40°C" 0 3100 50 H I L CNN "temperature range low"
+DRAW
+X VDD 3 100 0 100 R 40 40 1 1 W 
+X ~ALERT~ 8 100 -500 100 R 40 40 1 1 O 
+X CLK 7 100 -700 100 R 40 40 1 1 O 
+X PWM 5 1400 -300 100 L 40 40 1 1 C 
+X SMCLK 2 100 -300 100 R 40 40 1 1 I 
+X SMDATA 1 100 -400 100 R 40 40 1 1 B 
+X TACH 6 1400 0 100 L 40 40 1 1 C 
+X GND 4 1400 -700 100 L 40 40 1 1 W 
+S 200 100 1300 -800 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "CM4")(type "KiCad")(uri "${KIPRJMOD}/libs/CM4/RPi_Compute_Module_4.pretty")(options "")(descr ""))
+)

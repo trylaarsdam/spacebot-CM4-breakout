@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TI National Semiconductor LM34910CSD/NOPB
+#
+DEF LM34910CSD_NOPB U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "LM34910CSD/NOPB" 0 300 50 H V L CNN 
+F2 "TI_National_Semiconductor-LM34910CSD_NOPB-*" 0 400 50 H I L CNN 
+F3 "" 0 500 50 H I L CNN 
+F4 "" 0 600 50 H I L CNN "Code  IPC"
+F5 "" 0 700 50 H I L CNN "Code  JEDEC"
+F6 "Switcher" 0 800 50 H I L CNN "Comp Type"
+F7 "Datasheet URL" 0 900 50 H I L CNN "Component Link 1 Description"
+F8 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM34910C&fileType=pdf" 0 1000 50 H I L CNN "Component Link 1 URL"
+F9 "" 0 1100 50 H I L CNN "High  Reliability"
+F10 "LLP, Plastic, Dual, 4 x 4 x 0.8mm Body, 10 Lead, 0.8mm Pitch, No Pullback" 0 1200 50 H I L CNN "Package Description"
+F11 "NS*UZXYTT*L34910C" 0 1300 50 H I L CNN "Package Top Marking"
+F12 "10" 0 1400 50 H I L CNN "Pin Count"
+F13 "N" 0 1500 50 H I L CNN "Power Wise"
+F14 "IC" 0 1600 50 H I L CNN "category"
+F15 "1483784" 0 1700 50 H I L CNN "ciiva ids"
+F16 "c42c8023b05352e8" 0 1800 50 H I L CNN "library id"
+F17 "TI National Semiconductor" 0 1900 50 H I L CNN "manufacturer"
+F18 "DPR0010A" 0 2000 50 H I L CNN "package"
+F19 "1464095305" 0 2100 50 H I L CNN "release date"
+F20 "Yes" 0 2200 50 H I L CNN "rohs"
+F21 "6EDBE467-7CAE-4FE5-BCE3-A1F1565B5847" 0 2300 50 H I L CNN "vault revision"
+F22 "yes" 0 2400 50 H I L CNN "imported"
+DRAW
+X VCC 9 1000 0 100 L 40 40 1 1 W 
+X SS 7 100 -600 100 R 40 40 1 1 I 
+X SW 1 1000 -400 100 L 40 40 1 1 W 
+X FB 6 1000 -800 100 L 40 40 1 1 I 
+X RTN 5 100 -800 100 R 40 40 1 1 W 
+X VIN 10 100 0 100 R 40 40 1 1 W 
+X BST 2 1000 -200 100 L 40 40 1 1 I 
+X RON/SD 8 100 -400 100 R 40 40 1 1 I 
+X DAP 11 1000 -1000 100 L 40 40 1 1 W 
+X ISEN 3 1000 -600 100 L 40 40 1 1 I 
+X SGND 4 100 -1000 100 R 40 40 1 1 W 
+S 200 100 900 -1100 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

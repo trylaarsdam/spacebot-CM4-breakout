@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Texas Instruments TPD4EUSB30DQAR
+#
+DEF TPD4EUSB30DQAR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "TPD4EUSB30DQAR" 0 300 50 H V L CNN 
+F2 "Texas_Instruments-TPD4EUSB30DQAR-*" 0 400 50 H I L CNN 
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TPD4EUSB30&fileType=pdf" 0 500 50 H I L CNN 
+F4 "true" 0 600 50 H I L CNN "1394  Firewire"
+F5 "8" 0 700 50 H I L CNN "Breakdown VoltageMinV"
+F6 "Manufacturer URL" 0 800 50 H I L CNN "Component Link 1 Description"
+F7 "http://www.ti.com/" 0 900 50 H I L CNN "Component Link 1 URL"
+F8 "URL Link1" 0 1000 50 H I L CNN "Component Link 3 Description"
+F9 "SamplesURL:http://www.ti.com/product/tpd4eusb30#samples" 0 1100 50 H I L CNN "Component Link 3 URL"
+F10 "SLVSAC2C" 0 1200 50 H I L CNN "Datasheet Version"
+F11 "0.05" 0 1300 50 H I L CNN "Differential CapacitancepF"
+F12 "true" 0 1400 50 H I L CNN "HDMI"
+F13 "8" 0 1500 50 H I L CNN "IEC 61000 4 2 Air Gap  kV"
+F14 "8" 0 1600 50 H I L CNN "IEC 61000 4 2 Contact  kV"
+F15 "0.8" 0 1700 50 H I L CNN "IO CapacitanceTyppF"
+F16 "10" 0 1800 50 H I L CNN "IO Leakage CurrentnA"
+F17 "Surface Mount" 0 1900 50 H I L CNN "Mounting Technology"
+F18 "10-Pin Plastic Small Outline No-Lead, 1 x 2.5 x 0.55 mm Body, 0.5 mm Pitch" 0 2000 50 H I L CNN "Package Description"
+F19 "revB, Sep-2009" 0 2100 50 H I L CNN "Package Version"
+F20 "true" 0 2200 50 H I L CNN "Serial ATA  eSATA"
+F21 "ESD Solution" 0 2300 50 H I L CNN "Sub Family"
+F22 "true" 0 2400 50 H I L CNN "USB Full Speed"
+F23 "true" 0 2500 50 H I L CNN "USB High Speed"
+F24 "true" 0 2600 50 H I L CNN "USB Super Speed"
+F25 "IC" 0 2700 50 H I L CNN "category"
+F26 "d00082346c1bacc1" 0 2800 50 H I L CNN "library id"
+F27 "Texas Instruments" 0 2900 50 H I L CNN "manufacturer"
+F28 "DQA0010A" 0 3000 50 H I L CNN "package"
+F29 "Yes" 0 3100 50 H I L CNN "rohs"
+F30 "E710F427-8DB7-4012-BE3E-ECC58EEF8FBB" 0 3200 50 H I L CNN "vault revision"
+F31 "yes" 0 3300 50 H I L CNN "imported"
+DRAW
+X D1+ 1 100 0 100 R 40 40 1 1 U 
+X D1- 2 100 -100 100 R 40 40 1 1 U 
+X GND 3 900 -500 100 L 40 40 1 1 U 
+X D2+ 4 900 0 100 L 40 40 1 1 U 
+X D2- 5 900 -100 100 L 40 40 1 1 U 
+X NC 6 100 -300 100 R 40 40 1 1 U 
+X NC 7 100 -400 100 R 40 40 1 1 U 
+X GND 8 900 -600 100 L 40 40 1 1 U 
+X NC 9 100 -500 100 R 40 40 1 1 U 
+X NC 10 100 -600 100 R 40 40 1 1 U 
+S 200 100 800 -700 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
