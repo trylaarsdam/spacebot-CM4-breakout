@@ -1,0 +1,19 @@
+"Source:","/Users/trylaarsdam/Documents/dev/spacebot-CM4-breakout/spacebot-CM4-breakout.kicad_sch"
+"Date:","Wednesday, March 30, 2022 at 03:57:12 PM"
+"Tool:","Eeschema (6.0.0-0)"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","2"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","J1","Conn_02x12_Counter_Clockwise","Connector_Generic:Conn_02x12_Counter_Clockwise","Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Horizontal","~"
+"","","U1","Compute_Module_4_Connectors","CM4:Compute_Module_4_Connectors","CM4:Raspberry-Pi-4-Compute-Module",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","J1","Conn_02x12_Counter_Clockwise","Connector_Generic:Conn_02x12_Counter_Clockwise","Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Horizontal","~"
+"2","1","U1","Compute_Module_4_Connectors","CM4:Compute_Module_4_Connectors","CM4:Raspberry-Pi-4-Compute-Module",""

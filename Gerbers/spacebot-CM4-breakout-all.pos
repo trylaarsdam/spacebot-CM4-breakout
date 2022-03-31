@@ -1,0 +1,9 @@
+### Module positions - created on Wednesday, March 30, 2022 at 03:51:25 PM ###
+### Printed by Pcbnew version (6.0.0-0)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                           Package                                 PosX       PosY       Rot  Side
+G***      LOGO                          wcl_logo                            106.5700   -74.2800    0.0000  top
+J1        Conn_02x12_Counter_Clockwise  PinHeader_2x12_P2.54mm_Horizontal   110.0750  -111.3750  180.0000  top
+U1        Compute_Module_4_Connectors   Raspberry-Pi-4-Compute-Module       151.1000  -101.4250    0.0000  top
+## End
